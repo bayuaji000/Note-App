@@ -47,11 +47,11 @@ class ArchivesPage extends React.Component {
 
     return (
       <section className="archives-page">
-        <h2>Catatan Arsip</h2>
         <SearchBar
           keyword={this.state.keyword}
           keywordChange={this.onKeywordChangeHandler}
         />
+        <h2>Catatan Arsip</h2>
         <NoteList notes={notes} />
       </section>
     );

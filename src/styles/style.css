@@ -8,7 +8,7 @@
     --error: #CF6679;
     --warning: #F39C12;
     --on-background: #fcfcfc;
-    --on-background-grey: #f6f6f6;
+    --on-background-grey: #f5f5f5;
     --on-surface: #FFFFFF;
 }
 
@@ -41,9 +41,8 @@ header {
     align-items: center;
     justify-content: center;
     padding: 0;
-    background: var(--on-background);
+    background: var(--on-background-grey);
     min-height: 64px;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
     margin-bottom: 18px;
     position: sticky;
     top: 0;
@@ -65,17 +64,19 @@ header .navigation ul li {
 
 main {
     margin: 0 auto 10px auto;
-    padding: 0px 13px;
+    padding: 0px;
     width: 90%;
     max-width: 1200px;
 }
 
 .homepage h2 {
-    font-size: 22px;
+    font-size: 20px;
+    margin-left: 5px;
 }
 
 .archives-page h2 {
-    font-size: 22px;
+    font-size: 20px;
+    margin-left: 5px;
 }
 
 .notes-list {
@@ -215,11 +216,11 @@ main {
 }
 
 .search-bar input {
-    margin-top: 16px;
+    margin-bottom: 16px;
     font-size: 18px;
     font-family: 'Inter', sans-serif;
     background-color: var(--on-background);
-    border: 1px solid var(--action);
+    border: 1px solid rgba(66, 66, 66, 0.1);
     border-radius: 8px;
     padding: 14px;
     width: 100%;

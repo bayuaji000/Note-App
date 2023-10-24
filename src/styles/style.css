@@ -177,7 +177,7 @@ main {
     font-family: 'Inter', sans-serif;
     font-size: 30px;
     font-weight: bold;
-    padding: 8px 0;
+    padding: 8px;
 }
 
 .add-new-page__input__title::placeholder {

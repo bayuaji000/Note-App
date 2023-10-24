@@ -51,21 +51,21 @@ header {
 
 header h1 {
     flex: 1;
-    margin-left: 32px;
-    margin-right: 32px;
+    margin-left: 30px;
+    margin-right: 30px;
     font-weight: bold;
     font-size: 32px;
 }
 
 header .navigation ul li {
     display: inline-block;
-    font-size: 24px;
+    font-size: 20px;
     margin: 0 32px;
 }
 
 main {
     margin: 0 auto 10px auto;
-    padding: 0px 16px;
+    padding: 0px 13px;
     width: 90%;
     max-width: 1200px;
 }
@@ -100,11 +100,12 @@ main {
     border-radius: 8px;
     box-shadow: 0 0 8px 0 rgba(66, 66, 66, 0.1);
     background: var(--on-background);
-    text-align: justify;
+    text-align: left;
 }
 
 .note-item__title {
     margin: 4px 0;
+    font-weight: bold;
 }
 
 .note_item__createdAt {
@@ -115,9 +116,10 @@ main {
     margin: 4px 0;
 }
 
-.note-item__body {
-    margin-top: 16px;
+.note_item__body {
+    margin-top: 8px;
     overflow: hidden;
+    font-size: 16px;
     display: -webkit-box;
     text-overflow: ellipsis;
     -webkit-line-clamp: 6;
@@ -125,11 +127,11 @@ main {
 }
 
 .detail-page {
-    padding: 0px 8px;
+    padding: 0;
     margin: 0 auto;
-    margin-top: 52px;
+    margin-top: 30px;
     width: 100%;
-    text-align: justify;
+    text-align: left;
 }
 
 .detail-page__title {
@@ -140,14 +142,16 @@ main {
 
 .detail-page__createdAt {
     color: var(--background);
-    font-size: 18px;
+    font-size: 14px;
     font-weight: initial;
 }
 
 .detail-page__body {
     line-height: 1.5;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: left;
 }
 
 .detail-page__action,

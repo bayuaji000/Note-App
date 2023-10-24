@@ -99,7 +99,7 @@ main {
 
 .note_item__createdAt {
     color: var(--background);
-    font-weight: bold;
+    font-weight: initial;
     font-size: 14px;
     margin-bottom: 2px;
     margin: 4px 0;
@@ -130,8 +130,8 @@ main {
 
 .detail-page__createdAt {
     color: var(--background);
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: initial;
 }
 
 .detail-page__body {

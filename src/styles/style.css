@@ -182,7 +182,7 @@ main {
 }
 
 .add-new-page__input {
-    margin-top: 32px;
+    margin-top: 5px;
 }
 
 .add-new-page__input .add-new-page__input__title {
@@ -190,7 +190,6 @@ main {
     background-color: transparent;
     border: 1px;
     color: var(--background);
-    font-family: 'Inter', sans-serif;
     font-size: 30px;
     font-weight: bold;
     padding: 8px;
@@ -205,7 +204,6 @@ main {
     background-color: transparent;
     border: 0;
     color: var(--background);
-    font-family: 'Inter', sans-serif;
     font-size: 18px;
     padding: 8px;
     min-height: 500px;

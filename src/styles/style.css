@@ -43,6 +43,7 @@ header {
     padding: 0;
     background: var(--on-background-grey);
     min-height: 64px;
+    margin-top: 20px;
     margin-bottom: 18px;
     position: sticky;
     top: 0;
@@ -59,7 +60,7 @@ header h1 {
 header .navigation ul li {
     display: inline-block;
     font-size: 20px;
-    margin: 0 32px;
+    margin: 0 20px;
 }
 
 main {

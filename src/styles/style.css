@@ -16,14 +16,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sa;
 }
 
 a {
     color: var(--background);
     text-decoration: none;
 }
-
 
 body {
     font-family: 'Inter', sans-serif;
@@ -54,6 +53,8 @@ header h1 {
     flex: 1;
     margin-left: 32px;
     margin-right: 32px;
+    font-weight: bold;
+    font-size: 32px;
 }
 
 header .navigation ul li {
@@ -67,6 +68,14 @@ main {
     padding: 0px 16px;
     width: 90%;
     max-width: 1200px;
+}
+
+.homepage h2 {
+    font-size: 22px;
+}
+
+.archives-page h2 {
+    font-size: 22px;
 }
 
 .notes-list {
@@ -205,7 +214,7 @@ main {
     margin-top: 16px;
     font-size: 18px;
     font-family: 'Inter', sans-serif;
-    background-color: transparent;
+    background-color: var(--on-background);
     border: 1px solid var(--action);
     border-radius: 8px;
     padding: 14px;

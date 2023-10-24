@@ -43,13 +43,13 @@ class NoteInput extends React.Component {
         <div className="add-new-page__input">
           <input
             className="add-new-page__input__title"
-            placeholder="Catatan rahasia"
+            placeholder="Judul"
             value={this.state.title}
             onChange={this.onTitleChangeEventHandler}
           />
           <div
             className="add-new-page__input__body"
-            data-placeholder="Sebenarnya saya adalah ...."
+            data-placeholder="Mulai Mengetik"
             contentEditable
             onInput={this.onBodyEventHandler}
           />

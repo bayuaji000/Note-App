@@ -41,9 +41,12 @@ header {
     align-items: center;
     justify-content: center;
     padding: 0;
+    background: var(--on-background);
     min-height: 64px;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
     margin-bottom: 18px;
+    position: sticky;
+    top: 0;
 }
 
 header h1 {
@@ -59,18 +62,17 @@ header .navigation ul li {
 }
 
 main {
-    margin: 0 auto;
+    margin: 0 auto 10px auto;
     padding: 0px 16px;
     width: 90%;
     max-width: 1200px;
 }
 
 .notes-list {
-    margin-top: 10px;
+    margin-top: 15px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 16px;
-    padding: 16px 8px;
 }
 
 .notes-list-empty {
@@ -86,17 +88,19 @@ main {
 .note-item {
     padding: 16px;
     border-radius: 8px;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 8px 0 rgba(66, 66, 66, 0.1);
     background: var(--on-background);
+    text-align: justify;
 }
 
 .note-item__title {
     margin: 4px 0;
 }
 
-.note-item__createdAt {
-    color: var(--on-background-grey);
-    font-size: 10px;
+.note_item__createdAt {
+    color: var(--background);
+    font-weight: bold;
+    font-size: 14px;
     margin-bottom: 2px;
     margin: 4px 0;
 }
@@ -114,7 +118,8 @@ main {
     padding: 0px 8px;
     margin: 0 auto;
     margin-top: 52px;
-    width: 90%;
+    width: 100%;
+    text-align: justify;
 }
 
 .detail-page__title {
@@ -124,13 +129,15 @@ main {
 }
 
 .detail-page__createdAt {
-    color: var(--on-background-grey)
+    color: var(--background);
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .detail-page__body {
     line-height: 1.5;
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .detail-page__action,
@@ -165,10 +172,10 @@ main {
 .add-new-page__input .add-new-page__input__title {
     width: 100%;
     background-color: transparent;
-    border: 0;
+    border: 1px;
     color: var(--background);
     font-family: 'Inter', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     padding: 8px 0;
 }
@@ -181,10 +188,10 @@ main {
     width: 100%;
     background-color: transparent;
     border: 0;
-    color: var(--action);
+    color: var(--background);
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    padding: 8px 0;
+    font-size: 18px;
+    padding: 8px;
     min-height: 500px;
 }
 
@@ -194,10 +201,10 @@ main {
 }
 
 .search-bar input {
-    margin: 16px 0;
+    margin-top: 16px;
     font-family: 'Inter', sans-serif;
     background-color: transparent;
-    border: 1px solid var(--background);
+    border: 1px solid var(--action);
     border-radius: 8px;
     padding: 8px;
     width: 100%;

@@ -17,7 +17,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: var(--on-background-grey);
 }
 
 a {
@@ -26,7 +25,8 @@ a {
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--on-background-grey);
 }
 
 .app-container {

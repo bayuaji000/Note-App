@@ -213,7 +213,7 @@ main {
 }
 
 .search-bar input::placeholder {
-    color: var(--background);
+    color: var(--action);
 }
 
 .input-login,

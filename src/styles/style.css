@@ -1,3 +1,4 @@
+
 :root {
     --primary: #BB86FC;
     --primary-variant: #3700B3;
@@ -27,6 +28,7 @@ a {
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--background);
+    color: var(--black);
 }
 
 .app-container {

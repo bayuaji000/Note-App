@@ -226,7 +226,7 @@ main {
     border-radius: 24px;
     padding: 14px;
     width: 100%;
-    color: var(--background);
+    color: var(--black);
 }
 
 .search-bar input::placeholder {

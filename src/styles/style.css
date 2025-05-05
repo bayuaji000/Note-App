@@ -48,7 +48,7 @@ header {
     min-height: 64px;
     margin-top: 20px;
     margin-bottom: 18px;
-    position: sticky;
+    position: relative;
     top: 0;
 }
 
